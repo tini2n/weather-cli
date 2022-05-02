@@ -132,9 +132,9 @@ class Weather extends Command {
         }
 
         if (flags.token?.length) {
-            const alreadySavedToken = this.getToken();
+            const alreadySavedToken: any = await this.getToken();
 
-            if (!alreadySavedToken) {
+            if (!alreadySavedToken || alreadySavedToken === 'null') {
                 await this.saveToken(flags.token);
             } else {
                 this.printError('Error: token already saved!');

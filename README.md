@@ -20,7 +20,7 @@ $ npm install -g weather-cli-tini2n
 $ weather COMMAND
 running command...
 $ weather (--version)
-weather-cli-tini2n/1.0.0 darwin-x64 node-v16.4.2
+weather-cli-tini2n/1.0.1 darwin-x64 node-v16.4.2
 $ weather --help [COMMAND]
 USAGE
   $ weather COMMAND
@@ -50,7 +50,7 @@ USAGE
   $ weather
 ```
 
-_See code: [dist/commands/index.ts](https://github.com/tini2n/weather-cli/blob/v1.0.0/dist/commands/index.ts)_
+_See code: [dist/commands/index.ts](https://github.com/tini2n/weather-cli/blob/v1.0.1/dist/commands/index.ts)_
 
 ## `weather hello PERSON`
 
@@ -74,7 +74,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/tini2n/weather-cli/blob/v1.0.0/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/tini2n/weather-cli/blob/v1.0.1/dist/commands/hello/index.ts)_
 
 ## `weather hello world`
 
