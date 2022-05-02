@@ -16,11 +16,11 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g weather-cli
+$ npm install -g weather-cli-tini2n
 $ weather COMMAND
 running command...
 $ weather (--version)
-weather-cli/0.0.0 darwin-x64 node-v16.4.2
+weather-cli-tini2n/1.0.0 darwin-x64 node-v16.4.2
 $ weather --help [COMMAND]
 USAGE
   $ weather COMMAND
@@ -29,6 +29,7 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`weather `](#weather-)
 * [`weather hello PERSON`](#weather-hello-person)
 * [`weather hello world`](#weather-hello-world)
 * [`weather help [COMMAND]`](#weather-help-command)
@@ -41,6 +42,15 @@ USAGE
 * [`weather plugins:uninstall PLUGIN...`](#weather-pluginsuninstall-plugin-1)
 * [`weather plugins:uninstall PLUGIN...`](#weather-pluginsuninstall-plugin-2)
 * [`weather plugins update`](#weather-plugins-update)
+
+## `weather `
+
+```
+USAGE
+  $ weather
+```
+
+_See code: [dist/commands/index.ts](https://github.com/tini2n/weather-cli/blob/v1.0.0/dist/commands/index.ts)_
 
 ## `weather hello PERSON`
 
@@ -64,7 +74,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/tini2n/weather-cli/blob/v0.0.0/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/tini2n/weather-cli/blob/v1.0.0/dist/commands/hello/index.ts)_
 
 ## `weather hello world`
 
